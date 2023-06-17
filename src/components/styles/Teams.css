@@ -25,6 +25,17 @@ header{
     margin: 20px 150px;
 }
 
+#teamName{
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+#teamName:focus{
+    border-bottom: 1px solid #e9561f;
+}
+
 .team-card{
     display: flex;
     align-items: center;
@@ -39,7 +50,6 @@ header{
     font-size: 1.1em;
     gap: 50px;
     font-family: ArchivoBold;
-    transition: .2s all ease;
 }
 
 .team-logo img{
