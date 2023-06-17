@@ -39,6 +39,7 @@ header{
     font-size: 1.1em;
     gap: 50px;
     font-family: ArchivoBold;
+    transition: .2s all ease;
 }
 
 .team-logo img{

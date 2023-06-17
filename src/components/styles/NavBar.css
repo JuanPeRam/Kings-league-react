@@ -10,6 +10,49 @@ ul{
 
 .topBar{
     margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list{
+    margin-right: 30px;
+}
+
+svg :hover{
+    color: #f5a733;
+}
+
+.extra-links-list{
+    margin-right: 30px;
+}
+
+.extra-links-list li{
+    transition: .2 all ease-in-out;
+}
+
+.extra-links-list li:hover{
+    border: none;
+    background-color: white;
+}
+
+
+.extra-links-list li a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: ArchivoBold;
+    display: flex;
+    gap: 5px;
+    padding: 5px 15px;
+    font-weight: bolder;
+    transition: .2 ease-in-out all;
+}
+
+.extra-links-list li:hover a{
+    color: #f5a733;
+    background-color: white;
 }
 
 .botBar{
@@ -17,6 +60,7 @@ ul{
     align-items: center;
     background: linear-gradient(90deg, #e9561f,#f6a934);
     width: 100%;
+    justify-content: space-between;
 }
 .left-list{
     display: flex;
