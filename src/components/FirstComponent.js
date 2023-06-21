@@ -5,10 +5,10 @@ export const FirstComponent = () => {
 
     const [equipo, setEquipo] = useState("Móstoles")
   return (
-    <footer>
+    <div class="example">
         {equipo}
         <input type='text' onChange={e => setEquipo(e.target.value)}></input>
-    </footer>
+    </div>
 
   )
 }

@@ -1,5 +1,6 @@
 import './App.css';
 import { FirstComponent } from './components/FirstComponent';
+import { Footer } from './components/Footer';
 import { NavBar } from './components/NavBar';
 import { Teams } from './components/Teams'
 
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
         <NavBar/>
         {Component}
+        <Footer/>
     </div>
   );
 }

@@ -28,7 +28,10 @@ export const Teams = () => {
         <h1 class="text-header">Equipos</h1>
     </header>
     <main>
-        <input id="teamName" type="text" onChange={e => setQuery(e.target.value)} placeholder="Busque un equipo..." autocomplete="off"></input>
+        <div class="search-bar">
+            <input id="teamName" type="text" class="team-input" onChange={e => setQuery(e.target.value)} placeholder="Busque un equipo..." autocomplete="off"></input>
+            <div class="form-line"></div>
+        </div>
         <div id="raw-main" class="card-group">
             {Object.keys(filteredTeams).map((teamName) => (
                     <div key={teamName} className='team-card' style={{backgroundImage: 'url('+filteredTeams[teamName].background+')'}}>

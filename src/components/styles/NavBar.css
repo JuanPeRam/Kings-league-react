@@ -19,7 +19,7 @@ ul{
     margin-right: 30px;
 }
 
-svg :hover{
+.brands-list a:hover path{
     color: #f5a733;
 }
 
@@ -61,6 +61,7 @@ svg :hover{
     background: linear-gradient(90deg, #e9561f,#f6a934);
     width: 100%;
     justify-content: space-between;
+    position: sticky;
 }
 .left-list{
     display: flex;
