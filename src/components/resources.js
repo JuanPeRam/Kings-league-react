@@ -108,3 +108,7 @@ export const teamsInfo = {
         "background": backgroundxbuyer
     }
 }
+
+fetch("https://api.kingsleague.dev/teams").then( data => data.json())
+.then(json => console.log(json))
+.catch(error => console.log("Error: "+error))
