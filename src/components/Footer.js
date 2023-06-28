@@ -32,7 +32,7 @@ export const Footer = () => {
             <ul>
                 <li><a>Política de Privacidad</a></li>
                 <li><a>Aviso legal</a></li>
-                <li><a>Plítica de Cookies</a></li>
+                <li><a>Política de Cookies</a></li>
             </ul>
         </div>
     </footer>

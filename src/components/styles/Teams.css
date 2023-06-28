@@ -69,6 +69,8 @@ header{
     font-size: 1.1em;
     gap: 50px;
     font-family: ArchivoBold;
+    background-repeat: repeat;
+    transition: .2s;
 }
 
 .team-logo img{
@@ -85,7 +87,6 @@ header{
 .team-card:hover{
     background-position-x: 10px;
     transition: all .2s ease-in-out;
-    background-repeat: repeat;
     box-shadow: 0 25px 35px 0 rgb(113, 113, 113);
     cursor: pointer;
     user-select: none;
